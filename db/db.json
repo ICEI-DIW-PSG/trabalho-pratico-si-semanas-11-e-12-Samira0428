@@ -1,18 +1,31 @@
 {
-  "usuarios": [
+  "receitas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 1,
+      "titulo": "Bolo de Cenoura",
+      "descricao": "Incrível bolo de cenoura, super prático para os cafés da manhã!",
+      "conteudo": "Ingredientes:\n- 2 xícaras de cenoura (aproximadamente 2 unidades)\n- 4 ovos\n- 1 xícara de óleo\n- 1 e 1/2 xícaras de açúcar (se gostar mais doce, coloque 2)\n- 2 xícaras de farinha\n- 1 colher de fermento\n\nCobertura:\n- 200g de chocolate (meio amargo)\n- 1 caixinha de creme de leite\n\nModo de preparo:\n1. Bata no liquidificador a cenoura, ovos, óleo e açúcar por 5 minutos.\n2. Misture a farinha aos poucos.\n3. Adicione o fermento e misture delicadamente.\n4. Leve ao forno pré-aquecido a 200°C por aproximadamente 30-40 min.\n5. Finalize com cobertura de chocolate.\n\nCobertura:\nJunte os ingredientes e aqueça no microondas de 30 em 30 segundos (ou em banho-maria).",
+      "categoria": "Doces",
+      "data": "2025-10-01",
+      "imagem": "assets/img/cenouraa.jpeg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 2,
+      "titulo": "Bolo de Banana",
+      "descricao": "Prático para comer no dia a dia (fácil e saudável).",
+      "conteudo": "Ingredientes:\n- 1/2 banana\n- 1 ovo\n- 2 colheres de sopa de farinha de aveia\n\nModo de preparo:\n1. Amasse a banana.\n2. Adicione o ovo e misture bem.\n3. Acrescente a farinha de aveia.\n4. Coloque uma pitada de canela e um fio de mel para adoçar (opcional).\n5. Misture e adicione uma pitada de fermento.\n6. Leve ao micro-ondas por 2 minutos.\n\nCobertura:\nSe preferir, adicione mel, canela e fatias da outra metade da banana por cima.",
+      "categoria": "Doces",
+      "data": "2025-03-29",
+      "imagem": "assets/img/boloBanana.webp"
+    },
+    {
+      "id": 3,
+      "titulo": "Mousse de Maracujá",
+      "descricao": "Muito gostoso para sobremesas refrescantes no verão.",
+      "conteudo": "Ingredientes:\n- 1 lata de leite condensado\n- 1 lata de creme de leite\n- 1 lata de suco de maracujá (medida: lata de leite condensado)\n\nModo de preparo:\n1. Bata no liquidificador o leite condensado, o creme de leite e o suco concentrado de maracujá.\n2. Despeje em uma tigela e leve à geladeira por, no mínimo, 4 horas.\n\nCobertura:\nPode colocar as sementes do maracujá ou fazer uma ganache de chocolate por cima.",
+      "categoria": "Sobremesas",
+      "data": "2025-03-28",
+      "imagem": "assets/img/mousse-maracuja.jpg"
     }
   ]
 }

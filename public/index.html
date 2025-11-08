@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="styles.css">-->
+</head>
+
+<body style="background-color: #fdf6e3;">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold text-white" href="index.html">Receitas</a>
+
+            <!-- Botão hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarReceitas"
+                aria-controls="navbarReceitas" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links  menu-->
+            <div class="collapse navbar-collapse" id="navbarReceitas">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="/public/index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/public/receita/receita.html">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="dicas">Dicas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-danger" href="cadastro">Cadastre-se</a>
+                    </li>
+                </ul>
+
+                <!-- Pesquisa -->
+                <form class="d-flex" action="resultados.html" method="get">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                    <button class="btn btn-light" type="submit">🔍</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12">
+                    <img src="assets/img/bannerr.jpeg" class="img-fluid w-100"
+                        style="max-height: 400px; object-fit: cover;" alt="Pessoa cozinhando">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Conteúdo principal -->
+    <main class="py-5">
+        <div class="container">
+            <div class="row">
+
+                <!-- Texto à esquerda -->
+                <div class="col-md-4 col-12 mb-4">
+                    <section class="texto">
+                        <h2 class="fw-bold text-success">Bem-vindo à culinária prática!</h2>
+                        <p>
+                            Aqui você encontra receitas incríveis, saudáveis e dicas para transformar sua cozinha em um
+                            verdadeiro restaurante.
+                        </p>
+                    </section>
+                </div>
+
+                <!-- Receitas no meio -->
+                <div class="col-md-5 col-12 mb-4">
+                    <section class="receitas">
+                        <!--<article class="d-flex mb-3">
+      <img src="/public/img/cenouraa.jpeg" alt="Bolo de cenoura" class="me-3 rounded" style="width: 120px; height: auto;">
+      <div>
+        <h4 class="fw-bold text-success">Bolo de cenoura</h4>
+        <p style="color: #f4b400;">Incrível bolo de cenoura, super prático para os cafés!</p>
+         
+    </article>
+    <article class="d-flex mb-3">
+      <img src="/public/img/boloBanana.webp" alt="Bolo de banana" class="me-3 rounded" style="width: 120px; height: auto;">
+      <div>
+        <h4 class="fw-bold text-success">Bolo de banana</h4> 
+        <p style="color:#f4b400;">Prático para comer no dia a dia (fácil e saudável).</p>
+
+    </article>
+    <article class="d-flex mb-3">
+      <img src="/public/img/mousse-maracuja.jpg" alt="Mousse de maracujá" class="me-3 rounded" style="width: 120px; height: auto;">
+      <div>
+        <h4 class="fw-bold text-success">Mousse de maracujá</h4>
+        <p style="color: #f4b400;">Muito gostoso para sobremesas</p>
+         
+      </div>
+    </article> -->
+                    </section>
+                </div>
+                <!-- Categorias à direita -->
+                <aside class="col-md-3 col-12">
+                    <div class="p-3 bg-success bg-opacity-25 rounded">
+                        <h3 class="fw-bold text-success">Categorias</h3>
+                        <ul class="list-unstyled">
+                            <li><a href="salgados" class="text-decoration-none d-block py-1"
+                                    style="color: white">Salgados</a></li>
+                            <li><a href="doces" class="text-decoration-none d-block py-1" style="color: white">Doces</a>
+                            </li>
+                            <li><a href="sobremesas" class="text-decoration-none d-block py-1"
+                                    style="color: white">Sobremesas</a></li>
+                        </ul>
+                    </div>
+                </aside>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer text-white py-4 mt-5" style="background-color: #4caf50;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md mb-2">
+                    <p class="mb-0">&copy; 2025 Receitas | Todos os direitos reservados</p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0"><a href="#" class="text-white text-decoration-underline">Termos de Uso</a></p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0">
+                        <a href="#" class="text-white me-2">Instagram</a> |
+                        <a href="#" class="text-white ms-2">YouTube</a>
+                    </p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0">Contato: contato@receitas.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
