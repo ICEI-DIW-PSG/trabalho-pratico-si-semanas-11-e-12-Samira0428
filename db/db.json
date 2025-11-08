@@ -10,15 +10,6 @@
       "imagem": "assets/img/cenouraa.jpeg"
     },
     {
-      "id": 2,
-      "titulo": "Bolo de Banana",
-      "descricao": "Prático para comer no dia a dia (fácil e saudável).",
-      "conteudo": "Ingredientes:\n- 1/2 banana\n- 1 ovo\n- 2 colheres de sopa de farinha de aveia\n\nModo de preparo:\n1. Amasse a banana.\n2. Adicione o ovo e misture bem.\n3. Acrescente a farinha de aveia.\n4. Coloque uma pitada de canela e um fio de mel para adoçar (opcional).\n5. Misture e adicione uma pitada de fermento.\n6. Leve ao micro-ondas por 2 minutos.\n\nCobertura:\nSe preferir, adicione mel, canela e fatias da outra metade da banana por cima.",
-      "categoria": "Doces",
-      "data": "2025-03-29",
-      "imagem": "assets/img/boloBanana.webp"
-    },
-    {
       "id": 3,
       "titulo": "Mousse de Maracujá",
       "descricao": "Muito gostoso para sobremesas refrescantes no verão.",
@@ -26,6 +17,12 @@
       "categoria": "Sobremesas",
       "data": "2025-03-28",
       "imagem": "assets/img/mousse-maracuja.jpg"
+    },
+    {
+      "titulo": "Bolo de Chocolate Amargo",
+      "ingredientes": "Farinha, açúcar, ovos, leite e chocolate 70%",
+      "preparo": "Misture bem e asse por 35 minutos.",
+      "id": 4
     }
   ]
 }
