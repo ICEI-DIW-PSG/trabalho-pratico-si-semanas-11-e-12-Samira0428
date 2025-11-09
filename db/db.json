@@ -2,15 +2,15 @@
   "receitas": [
     {
       "id": 1,
-      "titulo": "Bolo de Cenoura",
-      "descricao": "Incrível bolo de cenoura, super prático para os cafés da manhã!",
-      "conteudo": "Ingredientes:\n- 2 xícaras de cenoura (aproximadamente 2 unidades)\n- 4 ovos\n- 1 xícara de óleo\n- 1 e 1/2 xícaras de açúcar (se gostar mais doce, coloque 2)\n- 2 xícaras de farinha\n- 1 colher de fermento\n\nCobertura:\n- 200g de chocolate (meio amargo)\n- 1 caixinha de creme de leite\n\nModo de preparo:\n1. Bata no liquidificador a cenoura, ovos, óleo e açúcar por 5 minutos.\n2. Misture a farinha aos poucos.\n3. Adicione o fermento e misture delicadamente.\n4. Leve ao forno pré-aquecido a 200°C por aproximadamente 30-40 min.\n5. Finalize com cobertura de chocolate.\n\nCobertura:\nJunte os ingredientes e aqueça no microondas de 30 em 30 segundos (ou em banho-maria).",
-      "categoria": "Doces",
-      "data": "2025-10-01",
-      "imagem": "assets/img/cenouraa.jpeg"
+      "titulo": "Lasanha de Frango Cremosa",
+      "descricao": "Camadas de massa, frango desfiado e molho branco irresistível!",
+      "conteudo": "Ingredientes:\n- Massa para lasanha\n- 500g de frango desfiado\n- 1 copo de requeijão\n- 200g de queijo mussarela\n- Molho branco\n\nModo de preparo:\n1. Monte as camadas alternando massa, frango e queijo.\n2. Finalize com molho branco e leve ao forno por 30 minutos.",
+      "categoria": "Salgados",
+      "data": "2025-11-08",
+      "imagem": "assets/img/lasanha.jpg"
     },
     {
-      "id": 3,
+      "id": 2,
       "titulo": "Mousse de Maracujá",
       "descricao": "Muito gostoso para sobremesas refrescantes no verão.",
       "conteudo": "Ingredientes:\n- 1 lata de leite condensado\n- 1 lata de creme de leite\n- 1 lata de suco de maracujá (medida: lata de leite condensado)\n\nModo de preparo:\n1. Bata no liquidificador o leite condensado, o creme de leite e o suco concentrado de maracujá.\n2. Despeje em uma tigela e leve à geladeira por, no mínimo, 4 horas.\n\nCobertura:\nPode colocar as sementes do maracujá ou fazer uma ganache de chocolate por cima.",
@@ -19,10 +19,13 @@
       "imagem": "assets/img/mousse-maracuja.jpg"
     },
     {
-      "titulo": "Bolo de Chocolate Amargo",
-      "ingredientes": "Farinha, açúcar, ovos, leite e chocolate 70%",
-      "preparo": "Misture bem e asse por 35 minutos.",
-      "id": 4
+      "id": 3,
+        "titulo": "Bolo de Cenoura",
+        "descricao": "Incrível bolo de cenoura, super prático para os cafés da manhã!",
+        "conteudo": "Ingredientes:\n - 2 xícaras de cenoura (aproximadamente 2 unidades)\n - 4 ovos\n - 1 xícara de óleo\n - 1 e 1/2 xícaras de açúcar(se gostar mais doce, coloque 2)\n - 2 xícaras de farinha\n - 1 colher de fermento\n",
+        "categoria": "Salgados",
+        "data": "2025-11-08",
+        "imagem": "assets/img/cenouraa.jpeg"
     }
   ]
 }
