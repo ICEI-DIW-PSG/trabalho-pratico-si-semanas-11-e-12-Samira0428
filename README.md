@@ -6,24 +6,30 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Samira Vitoria da Silva Fraga
+- Matricula: 1629044
+- Proposta de projeto escolhida: Culinária
+- Breve descrição sobre seu projeto: Projeto que oferece receitas práticas e rápidas para o dia a dia, ajudando pessoas a cozinhar de forma saudável e chinesa, mesmo com pouco tempo.
 
 **Print dos testes da API com Postman ou similar**
 
 << COLOQUE A IMAGEM GET AQUI >>
+![testes da API](/public/assets/img/get1.png)
+![testes da API](/public/assets/img/get2.png)
 
 << COLOQUE A IMAGEM POST AQUI >>
+![testes da API](/public/assets/img/post.png)
 
 << COLOQUE A IMAGEM PUT AQUI >>
+![testes da API](/public/assets/img/)
 
 << COLOQUE A IMAGEM DELETE AQUI >>
+![testes da API](/public/assets/img/delete.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![aba NETWORK](/public/assets/img/netPost.png)
+![aba NETWORK](/public/assets/img/net.Get.png)
 
 ## **Orientações Gerais**
 
